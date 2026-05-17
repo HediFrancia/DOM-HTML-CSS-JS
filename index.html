@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores Salvadoreños | Tour Gastronómico El Salvador</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/70ecfea266.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Sabores Salvadoreños</div>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <span>&#9776;</span>
+    </label>
+    <ul class="nav-links">
+      <li><a href="#hero">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#footer">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Descubre la Magia de El Salvador a través de su Sabor</h1>
+        <p>Un viaje sensorial por la historia de nuestros ingredientes y el alma de nuestra cocina.</p>
+        <a href="#servicios" class="cta-button">Reserva tu Tour</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección Nosotros  -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <h2>Nuestra Pasión</h2>
+      <p class="description">Somos un equipo de apasionados por la cultura salvadoreña. En <strong>Sabor de
+          Cuscatlán</strong>, no solo servimos comida; contamos historias. Desde el maíz sagrado de nuestros ancestros
+        mayas hasta las técnicas coloniales que dieron forma a nuestra gastronomía actual, te llevamos de la mano por
+        los rincones más deliciosos de El Salvador.</p>
+    </div>
+  </section>
+
+  <!-- Servicios Section (Tarjetas Gastronómicas) -->
+  <section id="servicios" class="section bg-light">
+    <div class="container">
+      <h2>Nuestros Tours</h2>
+      <div class="services-grid">
+        <div class="card">
+          <div class="card-img"
+            style="background-image: url('https://elsalvadorinfo.net/wp-content/uploads/2023/09/Olocuilta-El-Salvador.jpg');">
+          </div>
+          <div class="card-content">
+            <h3>Ruta de la Pupusa</h3>
+            <p>Aprende sobre la historia del maíz y el arte de palmear el plato nacional por excelencia en Olocuilta.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"
+            style="background-image: url('https://elsalvador.travel/system/wp-content/uploads/2022/01/2021-cafe-coffee-29-min.jpg');">
+          </div>
+          <div class="card-content">
+            <h3>Ruta del Café</h3>
+            <p>Explora las cordilleras volcánicas y descubre cómo el grano de oro transformó la economía y cultura del
+              país.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img"
+            style="background-image: url('https://previews.123rf.com/images/alexraths/alexraths1202/alexraths120200012/12351129-fresh-catch-of-fish-and-other-seafood.jpg');">
+          </div>
+          <div class="card-content">
+            <h3>Ruta del Mar</h3>
+            <p>Un recorrido por la costa para degustar mariscos frescos, recien salidos del mar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Formulario Inicio-->
+   <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="toastNotification" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body fw-semibold">
+        <p>¡Mensaje enviado con éxito! Los campos han sido borrados.</p>
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+  
+  <div class="container">
+    <form id="contactForm" action="https://api.staticforms.dev/submit" method="POST" class="p-4 border rounded shadow-sm bg-light">
+    <input type="hidden" name="apiKey" value="sf_a4cd55dc93f98db2811dfe5d" />
+    <input type="hidden" name="subject" value="Contact form submission" />
+
+    <h2 class="mb-4 fs-4  fw-bold text-center  text-primary">Formulario de Contacto</h2>
+
+    <div class="mb-3">
+        <label for="inputName" class="form-label fw-semibold">Nombre</label>
+        <input type="text" name="name" id="inputName" class="form-control" placeholder="Digite su nombre" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="inputEmail" class="form-label fw-semibold">Email</label>
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="name@example.com" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="txtMessage" class="form-label fw-semibold">Mensaje</label>
+        <textarea name="message" id="txtMessage" class="form-control" rows="4" placeholder="Escriba su mensaje aqui..." required></textarea>
+    </div>
+
+    <div class="d-grid">
+        <button type="submit" id="btnSubmit" class="btn btn-primary fw-bold">Enviar mensaje</button>
+    </div>
+</form>
+  </div>
+
+
+  <!-- Formulario fin-->
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-content">
+      <p>Siguenos en nuestras redes:</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-brands fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-tiktok fa-2x"></i></a>
+
+      </div>
+      <p class="creditos">&copy; 2026 Sabor de Cuscatlán. Todos los derechos reservados.</p>
+      <p class="creditos">Diseñado para el Tour Gastronómico de El Salvador.</p>
+      <p class="creditos1">Heidi Elizabeth Francia.</p>
+            <p class="creditos1">Juana Ester Jímenez.</p>
+            <p class="creditos1">Elmer Antonio Sorto .</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
