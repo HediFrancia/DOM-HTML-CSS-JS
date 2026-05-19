@@ -22,7 +22,7 @@ Una plataforma web interactiva y responsiva dedicada a promover el turismo gastr
 * **Bootstrap 5.3.8:** Implementación de componentes para el formulario, espaciados y el sistema de notificaciones (*Toast*).
 * **JavaScript (Vanilla JS):** Manejo asíncrono de eventos con `Fetch API` para procesar el formulario de contacto.
 * **FontAwesome:** Iconografía para redes sociales.
-* **StaticForms API:** Servicio backend para la recepción y procesamiento de correos.
+
 
 ---
 
