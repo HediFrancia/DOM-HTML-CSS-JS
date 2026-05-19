@@ -33,8 +33,8 @@ Una plataforma web interactiva y responsiva dedicada a promover el turismo gastr
 ├── estilos.css     # Estilos personalizados y media queries
 └── script.js       # Lógica de envío de formulario y alertas asíncronas
 
-
-Este proyecto fue diseñado y desarrollado con orgullo por:
+---
+## Este proyecto fue diseñado y desarrollado con orgullo por:
 
 Heidi Elizabeth Francia
 
