@@ -32,12 +32,12 @@ Una plataforma web interactiva y responsiva dedicada a promover el turismo gastr
 ├── index.html      # Estructura principal y secciones del sitio
 ├── estilos.css     # Estilos personalizados y media queries
 └── script.js       # Lógica de envío de formulario y alertas asíncronas
-
+```
 ---
-## Este proyecto fue diseñado y desarrollado con orgullo por:
+## Este proyecto fue diseñado y desarrollado por:
 
-Heidi Elizabeth Francia
+* **Heidi Elizabeth Francia**
 
-Juana Ester Jímenez
+* **Juana Ester Jímenez**
 
-Elmer Antonio Sorto
+* **Elmer Antonio Sorto**
